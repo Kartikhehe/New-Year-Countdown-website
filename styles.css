@@ -2,6 +2,10 @@ body{
     margin-left: 0px;
 }
 
+.textbordersss{
+    padding: 10% auto 10%;
+}
+
 .Counting p{
     display: inline-block;
     font-size: 4em;
@@ -399,6 +403,67 @@ button {
     }
 }
 
+@media (max-width: 450px) and (min-width: 320px) {
+    #carouselExampleIndicators{
+        background-color: #A7E6FF;
+        padding-top: 30px;
+    }
+
+    .Counter{
+        padding: 100px 0px 0px 0px;
+    } 
+
+    .myinfo .coffee{
+        width: 10%;
+        position: absolute;
+        top: 263%;
+    }
+
+    .myinfo .guitar{
+        position: absolute;
+        top: 203%;
+        right: 55%;
+        width: 30%;
+        margin: 0px auto 0px auto;
+   }
+
+   .myinfo .coffeeleft{
+    left: 0%;
+}
+
+   .myinfo .sun{
+    position: absolute;
+    width: 15%;
+    top: 170%;
+    right: 15%;
+    }
+
+    .myinfo .clouds{
+        position: absolute;
+        right: 22%;
+        top: 173%;
+        width: 15%;
+    }
+
+    .myinfo .introoo{
+        position: absolute;
+        top: 182%;
+        right: 30%;
+        display: inline-block;
+        color: #3ABEF9;
+        text-align: center;
+        
+    }
+
+    .myinfo .okie{
+        position: absolute;
+        top: 191%;
+        right:32%;
+        display: inline-block;
+        color: #3ABEF9;
+        text-align: center;
+    }
+}
 
 @media (min-width:994px) and (max-width:1610px){
     #carouselExampleIndicators{
@@ -428,10 +493,14 @@ button {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) and (min-width: 450px) {
     #carouselExampleIndicators{
         background-color: #A7E6FF;
         padding-top: 30px;
+    }
+
+    .myinfo .coffeeleft{
+        left: 0%;
     }
 
     .Counter{
