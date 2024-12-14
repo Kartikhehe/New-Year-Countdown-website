@@ -1,0 +1,487 @@
+body{
+    margin-left: 0px;
+}
+
+.Counting p{
+    display: inline-block;
+    font-size: 4em;
+    color: #fff;
+    margin: 5px 2px 5px;
+}
+
+.aligncenterrr{
+    text-align: center;
+    justify-content: center;
+}
+.Counting span{
+    color:#fff;
+}
+
+.Counting {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.Cwhite{
+    color:#fff;
+}
+
+.col-lg-6 {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.displayimages{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.greyyy{
+    color: #000000;
+}
+
+h3 {
+    margin: 2% 5% 2%;
+}
+
+h5{
+    margin-bottom: 30px;
+    margin: 40px 20% 40px;
+    color: #000000;
+}
+
+
+hr{
+    border-style: dotted;
+    height: 30px;
+    
+}
+
+.Counter{
+    width: 100%; 
+    height: 100vh; 
+    padding: 5% 5% 5%;
+    background-image: url('images/background.png'); 
+    background-size: auto; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.myinfo{
+    background-image: url('images/background.png'); 
+    background-size: auto; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.Counter h1{
+    padding: auto 30px auto;
+}
+
+
+.carousal-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rbga(0,0,0, 0.2);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+}
+
+.topdivision{
+    margin-top: 5%;
+}
+
+.wcarousel{
+    width: 25%;
+}
+
+.carousel-control-prev-icon{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-next-icon{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+/* our new year message initially i.e hidden */
+#newYearMessage {
+    font-size: 3em;
+    opacity: 0; 
+    transform: scale(0.5); 
+    animation: none; /* No animation initially */
+}
+
+#newYearMessage.show {
+    opacity: 1; 
+    transform: scale(1); 
+    animation: zoomIn 1.5s ease-out forwards, colorChange 3s infinite;
+}
+
+/* Animation Keyframes */
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes colorChange {
+    0% { color: gold; }
+    50% { color: red; }
+    100% { color: gold; }
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: gold;
+    color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+/* css for my resume part  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myinfo body{
+    
+    margin: 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+
+.myinfo div{
+    
+    width: 100%;
+    /* padding: 40px; */
+    align-items: center;
+    
+}
+
+
+.myinfo h1 {
+    /* margin: auto auto auto auto; */
+    font-family: 'SacraMento',cursive;
+    font-size: 50px;
+    position: absolute;
+
+
+    
+    
+}
+
+.myinfo p{
+    line-height: 2;
+
+}
+
+
+
+.myinfo .introoo{
+    position: absolute;
+    top: 15%;
+    right: 22%;
+    display: inline-block;
+    color: #3ABEF9;
+    text-align: center;
+    
+}
+
+.myinfo .first{
+    background-color: #A7E6FF;
+    height: 320px;
+
+}
+
+.myinfo .second{
+    background-color: #55AD9B;
+    height: 120px;
+
+}
+
+.myinfo .twopoint{
+    
+    background-color: beige;
+    height: 750px;
+}
+
+.myinfo .third{
+    background-color: #F1F8E8;
+    height: 150px;
+
+}
+
+.myinfo .bird{
+    width: 5%;
+    position: relative;
+
+
+}
+
+.myinfo .clouds{
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    width: 10%;
+}
+
+
+
+.myinfo .coffee{
+    width: 5%;
+    position: absolute;
+    top: 61%;
+}
+
+.myinfo .coffeeleft{
+    left:50%;
+}
+
+.myinfo .film{
+    text-align: right;
+}
+
+.myinfo .framee{
+    position: absolute;
+    display: none;
+}
+
+.myinfo .middle-container{
+    background-color: #7a848d;
+}
+
+.myinfo .linklogo{
+    width: 4%;
+}
+
+.myinfo .okie{
+    position: absolute;
+    top: 23%;
+    right: 22%;
+    display: inline-block;
+    color: #3ABEF9;
+    text-align: center;
+}
+
+
+.myinfo .guitar{
+     position: absolute;
+     top: 22%;
+     right: 35%;
+     width: 10%;
+     margin: 0px auto 0px auto;
+}
+
+.myinfo .road{
+    border-style: dashed;
+    border: 100px 0px 0px;
+    border-width: 30px 0px 0px;
+}
+
+.myinfo .sde{
+    text-align: left;
+}
+
+.myinfo .sun{
+    position: absolute;
+    width: 5%;
+    top: 2%;
+    right: 10%;
+}
+
+.myinfo .skillimg{
+    
+    width: 10%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    
+    border-image-width: 23px;
+    margin: 20px;
+    
+    
+    
+}
+
+
+/* MAKING THE WEBSITE RESPONSIVE */
+@media (min-width:500px) and (max-width: 993px) {
+    #carouselExampleIndicators{
+        background-color: #A7E6FF;
+        padding-top: 30px;
+    }
+
+    .myinfo .introoo{
+        position: absolute;
+        top: 110%;
+        right: 50%;
+        display: inline-block;
+        color: #3ABEF9;
+        text-align: center;
+        
+    }
+
+    .myinfo .okie{
+        position: absolute;
+        top: 115%;
+        right: 50%;
+        display: inline-block;
+        color: #3ABEF9;
+        text-align: center;
+    }
+
+    .Counter{
+        padding: 100px 0px 0px 0px;
+    }
+
+    .myinfo .guitar{
+        position: absolute;
+        top: 120%;
+        right: 70%;
+        width: 20%;
+        margin: 0px auto 0px auto;
+   }
+
+   .myinfo .sun{
+    position: absolute;
+    width: 10%;
+    top: 105%;
+    right: 15%;
+    }
+
+    .myinfo .clouds{
+        position: absolute;
+        right: 22%;
+        top: 107%;
+        width: 10%;
+    }
+
+    .myinfo .coffee{
+        width: 7%;
+        position: absolute;
+        top: 195%;
+    }
+    
+    .myinfo .coffeeleft{
+        left: 0%;
+    }
+
+    .myinfo h1 {
+        /* margin: auto auto auto auto; */
+        position: absolute;
+        top: 144%;
+        right: 50%;
+    }
+}
+
+
+@media (min-width:994px) and (max-width:1610px){
+    #carouselExampleIndicators{
+        background-color: #A7E6FF;
+        padding-top: 30px;
+    }
+
+    .Counter{
+        padding: 100px 0px 0px 0px;
+    }
+
+    .myinfo .coffee{
+        width: 7%;
+        position: absolute;
+        top: 45%;
+    }
+
+
+    .myinfo .guitar{
+        position: absolute;
+        top: 23%;
+        right: 35%;
+        width: 10%;
+        margin: 0px auto 0px auto;
+   }
+
+
+}
+
+@media (max-width: 500px) {
+    #carouselExampleIndicators{
+        background-color: #A7E6FF;
+        padding-top: 30px;
+    }
+
+    .Counter{
+        padding: 100px 0px 0px 0px;
+    } 
+
+    .myinfo .coffee{
+        width: 5%;
+        position: absolute;
+        top: 185%;
+    }
+
+    .myinfo .guitar{
+        position: absolute;
+        top: 142%;
+        right: 70%;
+        width: 20%;
+        margin: 0px auto 0px auto;
+   }
+
+   .myinfo .sun{
+    position: absolute;
+    width: 10%;
+    top: 120%;
+    right: 15%;
+    }
+
+    .myinfo .clouds{
+        position: absolute;
+        right: 22%;
+        top: 123%;
+        width: 10%;
+    }
+
+    .myinfo .introoo{
+        position: absolute;
+        top: 120%;
+        right: 50%;
+        display: inline-block;
+        color: #3ABEF9;
+        text-align: center;
+        
+    }
+
+    .myinfo .okie{
+        position: absolute;
+        top: 135%;
+        right: 57%;
+        display: inline-block;
+        color: #3ABEF9;
+        text-align: center;
+    }
+}
